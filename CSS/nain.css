@@ -198,6 +198,7 @@ padding: 0px;
 /*main*/
 
 /*секуия1*/
+/***********************************************/
 .Backraund-image{
   max-width: 1600px;
   height: 600px;
@@ -210,6 +211,7 @@ padding: 0px;
   background-size: cover;
   background-position: center;
 }
+/**********************************************/
 .name {
   /*геометрия*/
 padding-bottom: 200px;
