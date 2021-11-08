@@ -29,20 +29,21 @@
           ><span class="web_color">Web</span
           ><span class="web-color-a">Studio</span></a
         >
-        <ul class="navig_sait">
+        <ul class="navig_sait list">
           <li class="head"><a href="">Студия</a></li>
           <li class="head"><a href="./portfolio.html">Портфолио</a></li>
           <li class="head"><a href="">Контакты</a></li>
         </ul>
-        <ul class="contakts">
+        <ul class="contakts list">
           <li class="contakt"><a href="info@devstudio.com">info@devstudio.com</a></li>
           <li class="contakt"><a href=":tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </nav>
     </div>
     </header>
-    <main>
+    <main >
       <!--секция с фоновым рисунком-->
+      <div class="section-hero">
       <section class="name Backraund-image">
         <div class="container-name">
         <h1 class="name_title">
@@ -52,34 +53,35 @@
         <button class="button" type="button">Заказать услугу</button>
       </div>
       </section>
+    </div>
       <!--преимущиства-->
-      <section class="section">
+      <section class="section ">
         <div class="container-benefits">
         <h2 class="hide">преимущества</h2>
         <!--скрыть заголовок-->
-        <ul class="Benefits-list">
-          <li><img src="./image/container-benefits-a.png" alt="cпутниковая тарелка">
+        <ul class="Benefits-list list">
+          <li class="list-benefits ">
             <h3 class="title">Внимание к деталям</h3>
             <p class="benefits-clarification">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="list-benefits">
             <h3 class="title">Пунктуальность</h3>
             <p class="benefits-clarification">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="list-benefits">
             <h3 class="title">Планирование</h3>
             <p class="benefits-clarification">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="list-benefits">
             <h3 class="title">Современные технологии</h3>
             <p class="benefits-clarification">
               Значимость этих проблем настолько очевидна, что реализация
@@ -90,10 +92,10 @@
       </div>
       </section>
       <!--чем занимаются-->
-      <section class="section">
+      <section class="section-container-what-we-do centr">
         <div class="container-what-we-do">
         <h2 class="what-we-do">Чем мы занимаемся</h2>
-        <ul class="image-first-page">
+        <ul class="image-first-page list">
           <li class="img-first">
             <a href=""
               ><img
@@ -125,10 +127,10 @@
       </div>
       </section>
       <!-- работники-->
-      <section class="section-comand">
+      <section class="section-comand ">
         <div class="container-comand">
         <h2 class="xectoin_title">Наша команда</h2>
-        <ul class="comand">
+        <ul class="comand list centr">
           <li class="comand-info">
             <img class="photo-comand"
               src="img/img-3.jpg"
@@ -136,9 +138,10 @@
               width="270"
               height="368"
             />
-            <h3 class="name-command">Игорь Демьяненко</h3>
-            <p class="spetikatoon-comand"> <span lang="en">Product Designer</span> </p>
-          </li>
+            <div class="spetifikation-komand"><h3 class="name-command">Игорь Демьяненко</h3>
+            <p lang="en" class="spetikatoon-comand">Product Designer</p>
+          </div>
+        </li>
           <li class="comand-info">
             <img class="photo-comand"
               src="img/img-2.jpg"
@@ -146,9 +149,10 @@
               width="270"
               height="368"
             />
-            <h3 class="name-command">Ольга Репина</h3>
-            <p class="spetikatoon-comand"> <span lang="en">Frontend Developer</span></p>
-          </li>
+            <div class="spetifikation-komand"><h3 class="name-command">Ольга Репина</h3>
+            <p lang="en" class="spetikatoon-comand">Frontend Developer</p>
+          </div>
+        </li>
           <li class="comand-info">
             <img class="photo-comand"
               src="img/img-1.jpg"
@@ -156,9 +160,10 @@
               width="270"
               height="368"
             />
-            <h3 class="name-command">Николай Тарасов</h3>
-            <p class="spetikatoon-comand"> <span lang="en">Marketing</span> </p>
-          </li>
+            <div class="spetifikation-komand"><h3 class="name-command">Николай Тарасов</h3>
+            <p lang="en" class="spetikatoon-comand">Marketing</p>
+          </div>
+        </li>
           <li class="comand-info">
             <img class="photo-comand"
               src="img/img.jpg"
@@ -166,9 +171,10 @@
               width="270"
               height="368"
             />
-            <h3 class="name-command">Михаил Ермаков</h3>
-            <p class="spetikatoon-comand"> <span lang="en">UI Designer</span></p>
-          </li>
+            <div class="spetifikation-komand"><h3 class="name-command">Михаил Ермаков</h3>
+            <p lang="en" class="spetikatoon-comand">UI Designer</p>
+          </div>
+        </li>
         </ul>
       </div>
       </section>
@@ -180,16 +186,16 @@
         ><span class="web_color-b">Studio</span></a
       >
       <address class="adres-foot">
-                <ul class="footer-ul" >
-          <li>
+                <ul class="footer-ul " >
+          <li class="adres-list">
             <a class="adress" href="г.Киев,пр-тЛесиУкраинки,26"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li class="activ">
+          <li class="activ adres-list" >
             <a class="mail" href="info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li class="activ">
+          <li class="activ " >
             <a class="telephone" href=":tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
