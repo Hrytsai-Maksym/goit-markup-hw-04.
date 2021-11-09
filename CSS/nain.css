@@ -198,9 +198,9 @@ ul {
   display: block;
 margin: 0px;
 padding: 0px;
-  margin-right: 50px;
+  margin-right: 50px;}
+/*****************картинки*****************/
 
-}
 .navig_sait .head :last-child {
   margin-right: 0px;
 }
@@ -770,3 +770,59 @@ padding: 20px 24px;
 /* .down{
   padding-bottom: 20px;
 } */
+/****************контакты команды************/
+.kontakt-comand{
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+.kontakt-comand-link-a,
+.kontakt-comand-link-b,
+.kontakt-comand-link-c{
+  margin-right: 10px;
+}
+.kontakt-comand-link-a{
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-image: url(../image/instagram.png);
+  background-color: #FFFFFF;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+.kontakt-comand-link-b{
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-image: url(../image/twiter.png);
+  background-color: #FFFFFF;
+  background-size:auto ;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+.kontakt-comand-link-c{
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-image: url(../image/facebook.png);
+  background-color: #FFFFFF;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+.kontakt-comand-link-d{
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-image: url(../image/in.png);
+  background-color: #FFFFFF;
+  background-size:auto ;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
