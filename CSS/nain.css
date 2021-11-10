@@ -484,16 +484,16 @@ padding: 0px;
   padding: 0px;
 
   }
-.comand .comand-info {
+/* .comand  */
+.comand-info {
   margin-right: 30px;
   
 }
-.comand :last-child{
-  margin-right: 0px;
-}
 
 
-.comand-info {
+
+.comand-info,
+.comand-info-a {
   border-radius: 0px 0px 4px 4px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -783,30 +783,19 @@ padding: 20px 24px;
   justify-content: center;
   padding: 0px;
   border: none;
-  
-}
-.kontakt-komand-svg-a :hover,
-.kontakt-komand-svg-b :hover,
-.kontakt-komand-svg-c :hover,
-.kontakt-komand-svg-d :hover{
-  fill: #2196F3;
- }
- .kontakt-komand-svg-a{
-  background-size: 44px 44px ;
-background-color: #FFFFFF;}  
-.kontakt-komand-svg-b{
-  background-size: 44px 44px ;
-background-color: #FFFFFF;} 
+  }
+  .kontakt-comand-button{
+    padding: 0px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+ /* .kontakt-comand-button :last-child{
+   margin-right: 0px;
+ } */
 .button-svg{
   width: 44px;
   height: 44px;
-}
-
- 
- .kontakt-komand-svg-a, 
-.kontakt-komand-svg-b,
-.kontakt-komand-svg-c{
-  margin-right: 10px;
 }
 /*.kontakt-comand-link-a,
 .kontakt-comand-link-b,
