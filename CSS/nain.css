@@ -7,6 +7,7 @@
   --background-cilir: #ffffff;
   --color-command-name: #212121;
   --color-command-post: #757575;
+  --color-of-the-costumers: #AFB1B8
 }
 *,
 *::before,
@@ -219,10 +220,25 @@ padding: 0px;
   display: flex;
   margin-left: 93px;
 }
+.head-svg-mail{
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.head-svg-phone{
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+/* .mail-phone :hover{
+
+} */
 
 .contakts :focus,
 .contakts :hover {
   color: #2196f3;
+  fill: var(--accent-color);
 }
 .contakts .contakt {
   margin-right: 50px;
@@ -520,6 +536,61 @@ padding-bottom: 30px;
 padding-top: 30px;
   
 }
+/**************секция 4************************/
+.container-regular-customers{
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+padding: 0px;}
+.section-regular-customers{
+  padding: 0px;
+  margin-bottom: 94px;
+  margin-top: 94px;
+}
+.regular-customers{
+  /* display: block;
+  justify-content: center; */
+  font-weight: 700;
+font-size: 36px;
+line-height: 1,16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin-bottom: 50px;
+}
+.regular-customers-list{
+  display: flex;
+  justify-content: center;
+}
+.regular-customers-item{
+ margin-right: 30px;
+}
+.regular-customers-item :last-child{
+  margin-right: 0px;
+}
+.regular-customers-buttom{
+  width: 170px;
+  height: 92px;
+  padding: 0px;
+  border: 1px solid var(--color-of-the-costumers);
+  background-color: var(--background-cilir);
+}
+.regular-customers-buttom :hover{
+  border: 1px solid var(--accent-color);
+  width: 170px;
+  height: 92px;
+}
+.regular-customers-svg{
+  width: 106px;
+  height: 60px;
+}
+.regular-customers-svg :hover{
+  fill: var(--accent-color);
+;
+}
+
 /*footer*******************************************/
 .other{
   background: #FFFFFF;
@@ -773,9 +844,8 @@ padding: 20px 24px;
 /****************контакты команды************/
 /*******************************************/
 .kontakt-comand{
-  display: flex;
-  justify-content: center;
-  margin-top: 16px;
+  /* display: flex; */
+    margin-top: 16px;
   margin-bottom: 30px;
 
 }
@@ -783,71 +853,43 @@ padding: 20px 24px;
   display: flex;
   justify-content: center;
   padding: 0px;
-  border: none;
-  }
+  /* border: none; */
+    }
   .kontakt-comand-button{
     padding: 0px;
     border: none;
     border-radius: 50%;
     margin-right: 10px;
+        width: 44px;
+    height: 44px;
+    justify-content: center;
+    background-color:var(--background-cilir) ;
   }
+  
+  
   .kontakt-comand-button :hover{
+    background-color: darkkhaki;
+    border-radius: 50%;
+  }
+  /* .kontakt-comand-button :hover{
     background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 50%;
-  }
+padding: 0px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 0px;
+    fill: #FFFFFF;
+  } */
 
 .button-svg{
-  width: 44px;
-  height: 44px;
-}
-/*.kontakt-comand-link-a,
-.kontakt-comand-link-b,
-.kontakt-comand-link-c{
-  margin-right: 10px;
-}
+  width: 20px;
+  height: 20px;
 
- .kontakt-comand-link-a{
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  background-image: url(../image/instagram.png);
-  background-color: #FFFFFF;
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
+ 
 }
-.kontakt-comand-link-b{
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  background-image: url(../image/twiter.png);
-  background-color: #FFFFFF;
-  background-size:auto ;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-.kontakt-comand-link-c{
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  background-image: url(../image/facebook.png);
-  background-color: #FFFFFF;
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-.kontakt-comand-link-d{
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  background-image: url(../image/in.png);
-  background-color: #FFFFFF;
-  background-size:auto ;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
+/* .button-svg :hover{
+  fill: #FFFFFF;
+  width: 20px;
+  height: 20px;
 } */
