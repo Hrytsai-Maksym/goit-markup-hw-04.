@@ -133,8 +133,9 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left:  auto;
+  margin-right:  auto;
+  display: flex;
  
 }
 .container-comand{
@@ -570,6 +571,14 @@ margin-bottom: 50px;
 .regular-customers-item :last-child{
   margin-right: 0px;
 }
+/****************НА ССЫЛКЕ*************************/
+.regular-customers-a{
+  border: 1px solid var(--color-of-the-costumers);
+}
+.regular-customers-a-svg{
+  padding: 16px 32px;
+
+}
 .regular-customers-buttom{
   width: 170px;
   height: 92px;
@@ -624,15 +633,7 @@ margin-bottom: 50px;
  padding-top: 94px;
  
 }
-/* .footer-ul{
-  padding-top: 20px; 
-}*/
-/* .section-comand img {
-  width: 270px;
-  height: 260px;
-  left: 215px;
-  top: 1635px;
-} */
+
 
 /*адреса*/
 .web-color-b {
@@ -801,10 +802,7 @@ padding: 20px 24px;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  
-
-}
-
+  }
 .logo-foot {
   font-family: Raleway;
   font-style: normal;
@@ -814,7 +812,6 @@ padding: 20px 24px;
   /* identical to box height */
   letter-spacing: 0.03em;
 }
-
 .adress-footer {
   font-size: 14px;
   font-style: normal;
@@ -825,12 +822,10 @@ padding: 20px 24px;
 .adress-footera {
   color: #ffffff;
   padding: 0px !important;
-  
-  }
+ }
   .adress-footer :last-child{
     margin: 0px;
   }
-
 .contakts-footer {
   font-size: 14px;
   line-height: 1.71;
@@ -871,25 +866,54 @@ padding: 20px 24px;
     background-color: darkkhaki;
     border-radius: 50%;
   }
-  /* .kontakt-comand-button :hover{
-    background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 50%;
-padding: 0px;
-    border: none;
-    border-radius: 50%;
-    margin-right: 0px;
-    fill: #FFFFFF;
-  } */
-
 .button-svg{
   width: 20px;
   height: 20px;
-
- 
 }
-/* .button-svg :hover{
-  fill: #FFFFFF;
-  width: 20px;
-  height: 20px;
+.footer{
+  display: flex;
+  flex-direction: row;
+}
+.social-network{
+  /* margin-top: 72px;
+  margin-bottom: 100px; */
+  /* border-block: 206px 80px ; */
+  
+  padding: 0px
+}
+.social-network-h2{
+  font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+justify-content: center;
+margin-bottom: 20px;
+color: #FFFFFF;
+}
+.social-network-list{
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+.social-network-iten{
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+ }
+ .social-network-iten :last-child{
+   margin-right: 0px;
+ }
+.social-network-button{
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  
+}
+/* .social-network-button :last-child{
+margin-right: 0px;
 } */
+.footer-adres{
+  margin-right: 70px;
+}
