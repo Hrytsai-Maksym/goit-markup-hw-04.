@@ -909,11 +909,26 @@ color: #FFFFFF;
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
   
+}
+.social-network-button :hover{
+  background-color: var(--accent-color);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
 }
 /* .social-network-button :last-child{
 margin-right: 0px;
 } */
 .footer-adres{
   margin-right: 70px;
+}
+.social-network-svg{
+  width: 20px;
+  height: 20px;
+}
+.social-network-svg :hover{
+  background-color: var(--accent-color);
+  fill: white;
 }
