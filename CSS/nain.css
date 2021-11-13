@@ -580,10 +580,39 @@ margin-bottom: 50px;
 .regular-customers-a{
   border: 1px solid var(--color-of-the-costumers);
 }
+.regular-customers-list-item-a :hover{
+  border-color: var(--accent-color);
+  fill: var(--accent-color);
+}
 .regular-customers-a-svg{
   padding: 16px 32px;
-
 }
+.regular-customers-list-item-a-svg{
+  width: 106px;
+  height: 60px;
+  fill: var(--color-sprite);
+  margin: 16px 32px;
+}
+.regular-customers-item{
+      width: 170px;
+    height: 92px;
+    padding: 0px;
+    border: 1px solid var(--color-of-the-costumers);
+    background-color: var(--background-cilir);
+}
+.regular-customers-item :hover{
+  border-color: var(--accent-color);
+}
+.regular-customers-list :hover{
+  border-color: var(--accent-color);
+}
+/* .regular-customers-list-item-a{
+  width: 170px;
+  height: 92px;
+  padding: 0px;
+  border: 1px solid var(--color-of-the-costumers);
+  background-color: var(--background-cilir);
+} */
 .regular-customers-buttom{
   width: 170px;
   height: 92px;
@@ -912,19 +941,17 @@ color: #FFFFFF;
  }
 .social-network-button{
   padding: 0;
-  /* width: 44px;
-  height: 44px; */
-  border-radius: 50%;
+   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   
 }
-.social-network-button :hover{
+/* .social-network-button :hover{
   background-color: var(--accent-color);
   width: 44px;
   height: 44px;
   border-radius: 50%;
   fill: white;
-}
+} */
 /* .social-network-button :last-child{
 margin-right: 0px;
 } */
@@ -936,4 +963,31 @@ margin-right: 0px;
   height: 44px;
   fill: white;
 }
+.social-network-list-item{
+  width: 44px;  
+  height: 44px;
+  fill: var(--background-cilir);
+  background-color:rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-right: 10px;
+}
 
+.social-network-list-item :last-child{
+  margin-right: 0px;
+}
+.social-network-list-item-svg{
+  width: 20px;
+  height: 20px;
+  margin: 12px;
+  fill: var(--background-cilir);
+}
+.social-network-list-item :hover,
+.social-network-list-item :focus{
+  background-color: var(--accent-color);
+  fill: var(--background-cilir);
+ }
+ .social-network-list-item-a :hover{
+  background-color: var(--accent-color);
+  fill: var(--background-cilir); 
+ }
+ 
