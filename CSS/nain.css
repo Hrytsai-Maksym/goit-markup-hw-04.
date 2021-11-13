@@ -249,6 +249,11 @@ padding: 0px;
 .contakts .contakt {
   margin-right: 50px;
 }
+.mail-phone :hover,
+.mail-phone .activ{
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
 .contakts .contakt :last-child {
   margin-right: 0px;
 }
@@ -882,6 +887,10 @@ padding: 20px 24px;
   padding: 0px;
   /* border: none; */
     }
+    .kontakt-comand-list-item-a{
+      display: block;
+      border-radius: 50%;
+    }
     .kontakt-comand-list-item{
       padding: 0px;
     border: none;
@@ -1009,8 +1018,13 @@ margin-right: 0px;
   background-color: var(--accent-color);
   fill: var(--background-cilir);
  }
- .social-network-list-item-a :hover{
+ .social-network-list-item-a{
+   display: block;
+   border-radius: 50%;
+ }
+ /* .social-network-list-item-a :hover{
+   display: block;
   background-color: var(--accent-color);
   fill: var(--background-cilir); 
  }
- 
+  */
