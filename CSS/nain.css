@@ -235,6 +235,10 @@ padding: 0px;
 /* .mail-phone :hover{
 
 } */
+.contakt :hover{
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
 
 .contakts :focus,
 .contakts :hover {
