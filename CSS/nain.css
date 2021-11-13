@@ -875,7 +875,6 @@ padding: 20px 24px;
   /* display: flex; */
     margin-top: 16px;
   margin-bottom: 30px;
-
 }
 .kontakt-comand-list{
   display: flex;
@@ -883,7 +882,31 @@ padding: 20px 24px;
   padding: 0px;
   /* border: none; */
     }
-  .kontakt-comand-button{
+    .kontakt-comand-list-item{
+      padding: 0px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 10px;
+        width: 44px;
+    height: 44px;
+    justify-content: center;
+    background-color:var(--background-cilir) ;
+    }
+    .kontakt-comand-list-item :hover{
+      background-color: var(--accent-color);
+      fill: var(--background-cilir);
+    }
+    .kontakt-comand-list-item:last-child{
+      margin-right: 0px;
+    }
+    .kontakt-comand-list-item-a-svg{
+      fill: var(--color-of-the-costumers);
+      width: 20px;
+      height: 20px;
+      margin: 12px;
+
+    }
+  /* .kontakt-comand-button{
     padding: 0px;
     border: none;
     border-radius: 50%;
@@ -892,7 +915,7 @@ padding: 20px 24px;
     height: 44px;
     justify-content: center;
     background-color:var(--background-cilir) ;
-  }
+  } */
   
   
   .kontakt-comand-button :hover{
