@@ -9,6 +9,7 @@
   --color-command-post: #757575;
   --color-of-the-costumers: #AFB1B8 ;
   --color-sprite: #afb1b8;
+  --backgroun-color-images: #F5F4FA; ;
 }
 *,
 *::before,
@@ -225,21 +226,27 @@ padding: 0px;
 .head-svg-mail{
   width: 16px;
   height: 12px;
+  }
+  .contakts list{
     fill: var(--color-command-post);
-    margin-right: 10px;
-}
+  }
 .head-svg-phone{
   width: 10px;
   height: 16px;
-  margin-right: 10px;
-  fill: var(--color-command-post);
+  /* margin-right: 10px; */
+ 
 }
 
+.contakt{ 
+  fill: var(--color-command-post)
+ 
 
-.contakt :hover{
+}
+
+/* .contakt :hover{
   color: var(--accent-color);
   fill: var(--accent-color);
-}
+} */
 
 .contakts :focus,
 .contakts :hover {
@@ -249,11 +256,11 @@ padding: 0px;
 .contakts .contakt {
   margin-right: 50px;
 }
-.mail-phone :hover,
+/* .mail-phone :hover,
 .mail-phone .activ{
   color: var(--accent-color);
-  fill: var(--accent-color);
-}
+  fill: var(--accent-color); 
+}*/
 .contakts .contakt :last-child {
   margin-right: 0px;
 }
@@ -376,7 +383,19 @@ padding-top: 200px;
   margin-right: 0px;
 }
 /****************рисунки**********************/
-.list-benefits::before{
+.benefits-list-div{
+  width: 270px;
+  height: 120px;
+  background-color:var(--backgroun-color-images) ;
+  border-radius: 4px;
+}
+.benefits-list-div-svg{
+  width: 70px;
+  height: 70px;
+  margin: 25px 100px;
+  /* padding: 25px 100px; */
+}
+/* .list-benefits::before{
 content: "";
 display: block;
 background: #F5F4FA;
@@ -397,7 +416,7 @@ background-image: url(../image/antenna\ .png);
 }
 .list-benefits:nth-child(4)::before{
   background-image: url(../image/astronaut\ .png);
-}
+} */
 /*******************************************/
 .title{
   padding-top: 30px;
