@@ -875,17 +875,27 @@ padding: 20px 24px;
      .kontakt-comand-list-item{
       padding: 0px;
     border: none;
-    fill: currentColor;
+    /* fill: currentColor; */
     justify-content: center;
     background-color: var(--button-text-color);
             margin-right: 10px;
+    }
+    .kontakt-comand-list-item :hover,
+    .kontakt-comand-list-item :focus{
+      background-color: var(--accent-color);
     }
     .kontakt-comand-list-item-a{
       display: block;
       border-radius: 50%;
        width: 44px;
        height: 44px;
+       background-color: #ffffff;
+       fill: var(--color-of-the-costumers);
        }
+   .kontakt-comand-list-item-a :focus,
+.kontakt-comand-list-item-a :hover{
+  background-color:var(--accent-color);
+}
  /* .kontakt-comand-list-item-a :focus,
  .kontakt-comand-list-item-a :hover{
  fill: var(--backgroun-color-images);
@@ -904,17 +914,18 @@ padding: 20px 24px;
 
            .kontakt-comand-list-item-a-svg{
       
-      fill: var(--color-of-the-costumers);
+      /* fill: var(--color-of-the-costumers); */
       width: 20px;
       height: 20px;
     margin: 12px;
+    fill: currentColor;
+      }
+      .kontakt-comand-list-item-a-svg :hover,
+      .kontakt-comand-list-item-a-svg :focus{
+        fill: var(--backgroun-color-images);
       }
 /********************************************/
-/* .button-svg{
-  width: 30px;
-  height: 30px;
-  fill: var(--color-sprite);
-} */
+
 .footer{
   display: flex;
   flex-direction: row;
