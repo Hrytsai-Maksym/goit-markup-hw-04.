@@ -604,8 +604,8 @@ background-color: var(--background-cilir);
 .regular-customers-list-item-a :hover,
 .regular-customers-list-item-a :focus{
   background-color: var(--background-cilir);
-  border: 1px solid var(--accent-color);
-  fill: var(--accent-color);
+  border-color: var(--accent-color);
+    fill: var(--accent-color);
 }
 .regular-customers-list-item-a-svg{
   width: 106px;
@@ -614,7 +614,7 @@ background-color: var(--background-cilir);
 }
 .regular-customers-list-item-a-svg :hover,
 .regular-customers-list-item-a-svg :focus{
-  fill: currentColor;
+fill: var(--color-sprite);
 }
 
 /****************НА ССЫЛКЕ*************************/
@@ -887,6 +887,7 @@ padding: 20px 24px;
     justify-content: center;
     background-color: var(--button-text-color);
             margin-right: 10px;
+            color: var(--color-sprite);
     }
     .kontakt-comand-list-item :hover,
     .kontakt-comand-list-item :focus{
@@ -903,6 +904,8 @@ padding: 20px 24px;
    .kontakt-comand-list-item-a :focus,
 .kontakt-comand-list-item-a :hover{
   background-color:var(--accent-color);
+  color: var(--backgroun-color-images);
+  fill: violet;
 }
  /* .kontakt-comand-list-item-a :focus,
  .kontakt-comand-list-item-a :hover{
@@ -921,17 +924,13 @@ padding: 20px 24px;
                 }  */
 
            .kontakt-comand-list-item-a-svg{
-      
-      /* fill: var(--color-of-the-costumers); */
+            fill: var(--color-of-the-costumers);
       width: 20px;
       height: 20px;
     margin: 12px;
-    fill: currentColor;
+    /* fill: currentColor; */
       }
-      .kontakt-comand-list-item-a-svg :hover,
-      .kontakt-comand-list-item-a-svg :focus{
-        fill: var(--backgroun-color-images);
-      }
+  
 /********************************************/
 
 .footer{
