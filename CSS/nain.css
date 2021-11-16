@@ -588,7 +588,11 @@ margin-bottom: 50px;
   
 padding: 0px;
 margin-right: 30px;
-
+}
+.regular-customers-item :hover,
+.regular-customers-item :focus{
+border-color: var(--accent-color);
+fill: var(--accent-color);
 }
 .regular-customers-item :last-child{
   margin-right: 0px;
