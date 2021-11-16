@@ -592,7 +592,7 @@ margin-right: 30px;
 .regular-customers-item :hover,
 .regular-customers-item :focus{
 border-color: var(--accent-color);
-fill: var(--accent-color);
+fill:var(--accent-color) ;
 }
 .regular-customers-item :last-child{
   margin-right: 0px;
@@ -896,7 +896,16 @@ padding: 20px 24px;
     .kontakt-comand-list-item :hover,
     .kontakt-comand-list-item :focus{
       background-color: var(--accent-color);
+      fill: var(--backgroun-color-images);
     }
+    .kontakt-comand-list-item-a-svg :hover, 
+    .kontakt-comand-list-item-a-svg :focus{
+      fill: var(--backgroun-color-images);
+    }
+    /* .kontakt-comand-list-item :hover,
+    .kontakt-comand-list-item :focus{
+      background-color: var(--accent-color);
+    } */
     .kontakt-comand-list-item-a{
       display: block;
       border-radius: 50%;
@@ -905,12 +914,12 @@ padding: 20px 24px;
        background-color: #ffffff;
        fill: var(--color-of-the-costumers);
        }
-   .kontakt-comand-list-item-a :focus,
+   /* .kontakt-comand-list-item-a :focus,
 .kontakt-comand-list-item-a :hover{
   background-color:var(--accent-color);
   color: var(--backgroun-color-images);
   fill: violet;
-}
+} */
  /* .kontakt-comand-list-item-a :focus,
  .kontakt-comand-list-item-a :hover{
  fill: var(--backgroun-color-images);
